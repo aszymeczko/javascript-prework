@@ -1,9 +1,9 @@
+const buttonRock = document.getElementById('button-rock');
+const buttonPaper = document.getElementById('button-paper');
+const buttonScissors = document.getElementById('button-scissors');
+
 let computerResult = 0;
 let playerResult = 0;
-
-let buttonRock = document.getElementById('button-rock');
-let buttonPaper = document.getElementById('button-paper');
-let buttonScissors = document.getElementById('button-scissors');
 
 function buttonClicked(argButtonName){
     clearMessages();
