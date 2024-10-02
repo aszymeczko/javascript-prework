@@ -7,3 +7,10 @@ function printMessage(msg){
 function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
+
+function updateResult(playerResult, computerResult){
+	var div = document.createElement('div');
+	document.getElementById('result').innerHTML = '';
+	div.innerHTML = "wynik gracza: "+playerResult+" wynik komputera: "+computerResult;
+	document.getElementById('result').appendChild(div);
+}
