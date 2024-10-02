@@ -1,5 +1,5 @@
-var computerResult = 0;
-var playerResult = 0;
+let computerResult = 0;
+let playerResult = 0;
 
 let buttonRock = document.getElementById('button-rock');
 let buttonPaper = document.getElementById('button-paper');
